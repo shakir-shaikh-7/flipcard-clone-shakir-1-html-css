@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+footer {
+    height: 12vh;
+    width: 100vw;
+    background-color: #172337;
+}
+
+header {
+    background-color: #2874f0;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 10vh;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 1.5625vw 1.953125vw;
+
+
+}
+
+nav ul li a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    /* font-size: 1.328125vw; */
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(252, 252, 51), 0 0 5px darkblue;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 6.25vw;
+    padding: 0.78125vw;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+
+}
+
+.search input {
+    width: 31.25vw;
+    height: 1.25vw;
+    padding: 5px;
+    margin: 0px 2.109375vw;
+
+}
+
+.search img {
+    height: 1.25vw;
+    margin: 0px 0px -2px -56px;
+
+}
+
+
+.container {
+    height: 78vh;
+}
+
+.slider img {
+    margin: 8px auto;
+    width: 80vw;
+    height: 32vh;
+    display: flex;
+    align-items: center;
+}
+
+.cart {
+    max-width: 92vw;
+    margin: auto;
+    font-family: sans-serif;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.card h2 {
+    font-family: Arial, sans-serif;
+}
+
+.card-items {
+    width: 10vw;
+    display: inline-grid;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 2.1875vw;
+    overflow: hidden;
+
+}

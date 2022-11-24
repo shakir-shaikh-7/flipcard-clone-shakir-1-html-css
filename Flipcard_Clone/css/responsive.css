@@ -1,0 +1,43 @@
+@media screen and (max-width:1000px) {
+
+
+    nav {
+        flex-direction: column;
+    }
+
+    .logo {
+        justify-content: center;
+        margin: 2px 0;
+    }
+
+    nav ul {
+        justify-content: center;
+        height: 25px;
+    }
+
+    .search {
+        justify-content: center;
+    }
+
+    .search input {
+        margin: 10px 10px;
+    }
+
+    nav ul li a:hover {
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+
+    }
+
+    .slider img {
+        margin: 4px auto;
+        width: 80vw;
+        height: 25vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .container {
+        height: 55vh;
+    }
+}

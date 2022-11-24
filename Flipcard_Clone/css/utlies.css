@@ -1,0 +1,29 @@
+.footer-text {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mh2 {
+    margin: 12px 0px;
+}
+
+.text-center {
+    text-align: center;
+    margin: 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-items img {
+    margin: 5px;
+    border-radius: 0px;
+
+}
+
+.lines {
+    margin: 0 10px;
+}
